@@ -1,0 +1,31 @@
+.about-title {
+    margin-top: 150px;
+    h1 {
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+}
+
+.what-we-do {
+    margin: 100px 50px 200px 50px; 
+    h1 {
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    p {
+        font-size: 2em;
+        text-align: justify;
+        line-height: 1.5em;
+    }
+}
+
+@media (max-width : 858px) {
+    .what-we-do {
+        margin: 100px 50px 300px 50px; 
+        h1 {
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+        p {
+            font-size: .7em;
+            line-height: 1.6em;
+        }
+    }
+}

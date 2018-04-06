@@ -1,0 +1,39 @@
+// OUR STORY PAGE
+
+.story-title {
+    margin-top: 150px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.story-paragraph {
+    margin: 100px 50px 200px 50px;
+    p {
+        font-size: 2em;
+        text-align: start;
+        line-height: 1.5em;
+    }
+}
+
+@media (max-width : 858px) {
+    .story-paragraph {
+        margin: 100px 50px 300px 50px;
+        p {
+            text-align: justify;
+            font-size: .9em;
+            line-height: 1.4em;
+        }
+    }
+}
+
+// FAQ PAGE
+
+.faq-title {
+    margin-top: 150px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.faq-main {
+    .row {
+        margin-bottom: 100px;
+    }
+}
