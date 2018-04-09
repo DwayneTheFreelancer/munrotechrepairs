@@ -1,11 +1,11 @@
 <?php
 
 namespace App\Http\Controllers;
-
+namespace App\Mail;
 use Illuminate\Http\Request;
 
 //use Mail;
-namespace App\Mail;
+use Illuminate\Mail\Mailable;
 //use App\mail\sendMail;
 use SendMail;
 
