@@ -43,7 +43,7 @@ return [
             'driver' => 'mysql',
             'host' => env('DB_HOST', 'us-cdbr-iron-east-05.cleardb.net'),
             'port' => env('DB_PORT', '3306'),
-            'database' => env('DB_DATABASE', ''),
+            'database' => env('DB_DATABASE', 'heroku_428ae9e4bcd2402'),
             'username' => env('DB_USERNAME', 'bcdb4153996001'),
             'password' => env('DB_PASSWORD', '03149f6f'),
             'unix_socket' => env('DB_SOCKET', ''),
