@@ -5,7 +5,6 @@ namespace App\Mail;
 use Illuminate\Http\Request;
 
 //use Mail;
-use Illuminate\Mail\Mailable;
 //use App\mail\sendMail;
 use SendMail;
 
