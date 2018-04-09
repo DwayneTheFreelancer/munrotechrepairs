@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-use App\Mail;
+use Mail;
 //use App\mail\sendMail;
 use SendMail;
 
