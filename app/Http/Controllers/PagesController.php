@@ -5,7 +5,8 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 
 use Mail;
-use App\mail\sendMail;
+//use App\mail\sendMail;
+use sendMail;
 
 
 class PagesController extends Controller
