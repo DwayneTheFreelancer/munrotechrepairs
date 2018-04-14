@@ -23,8 +23,9 @@ class PagesController extends Controller
         if($request->name == "" || $request->email == "" || $request->comment == "") {
             echo "Please fill in all fields";
         } else {
-            Mail::send(new SendMail());
-            echo "You message hase been sent";
+            //Mail::send(new SendMail());
+            //echo "You message hase been sent";
+            echo "form is tempoarily shut down";
         }
     }
 
