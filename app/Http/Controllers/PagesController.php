@@ -1,9 +1,10 @@
 <?php
 
+namespace App\Mail;
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Mail;
+
 use SendMail;
 
 
