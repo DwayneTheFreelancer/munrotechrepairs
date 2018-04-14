@@ -25,7 +25,7 @@ class PagesController extends Controller
         } else {
             //Mail::send(new SendMail());
             //echo "You message hase been sent";
-            echo "form is tempoarily shut down";
+            echo "form is temporarily shut down";
         }
     }
 
