@@ -15,12 +15,20 @@
 
     <div class="container notice">
         <h1>All payments are in cash and the price is $95 flat</h1>
+        <h1><span>iphone 8+:</span>$95</h1>
+        <h1><span>iphone 8:</span>$90</h1>
+        <h1><span>iphone 7+:</span>$85</h1>
+        <h1><span>iphone 7:</span>$80</h1>
+        <h1><span>iphone 6s+:</span>$75</h1>
+        <h1><span>iphone 6s:</span>$70</h1>
+        <h1><span>iphone 6+:</span>$65</h1>
+        <h1><span>iphone 6:</span>$60</h1>
     </div>
 
     <form class="container form-comp" action="/repairs" method="POST">
         {{ csrf_field() }}
         <div class="form-group">
-            <label for="phone" class="col-sm-2 control-label">IPhone</label>
+            <label for="phone" class="col-sm-2 control-label">iPhone</label>
             <div class="col-sm-10">
                 <select name="iphone" id="phone">
                     <option name="iphone8plus" value="iphone8plus">Iphone 8 Plus</option>

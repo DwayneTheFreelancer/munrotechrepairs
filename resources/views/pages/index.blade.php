@@ -13,7 +13,7 @@
     @include('inc.navbar')
 
     <div id="banner">
-        <h1>Got A Cracked Iphone No Problem!</h1>
+        <h1>Got A Cracked iphone No Problem!</h1>
         <h3 class="text-center"><a href="{{ url('repairs/') }}">Repair Device</a></h3>
     </div>
 
