@@ -17,6 +17,10 @@
         <h3 class="text-center"><a href="{{ url('repairs/') }}">Repair Device</a></h3>
     </div>
 
+    <div class="coming-soon">
+        <h1>Apple watches repairs will be coming soon!</h1>
+    </div>
+
     <h1 class="text-center">How It Works</h1>
 
     <div class="main">
