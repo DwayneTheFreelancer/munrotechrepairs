@@ -14,7 +14,7 @@
     @include('inc.navbar')
 
     <div class="container notice">
-        <h1>All payments are in cash and the price is $95 flat</h1>
+        <h1>All payments are in <strong>CASH</strong></h1>
         <h1><span>iphone 8+:</span>$95</h1>
         <h1><span>iphone 8:</span>$90</h1>
         <h1><span>iphone 7+:</span>$85</h1>
@@ -23,6 +23,8 @@
         <h1><span>iphone 6s:</span>$70</h1>
         <h1><span>iphone 6+:</span>$65</h1>
         <h1><span>iphone 6:</span>$60</h1>
+        <h1><span>iphone SE:</span>$55</h1>
+        <h1><span>iphone 5s:</span>$50</h1>
     </div>
 
     <form class="container form-comp" action="/repairs" method="POST">
