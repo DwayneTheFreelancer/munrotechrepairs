@@ -47,7 +47,16 @@ class RepairsController extends Controller
         $address = $request->address;
         $zip_code = $request->zip_code;
         $note = $request->note;
-        // If the user don' want to fill out note they wont get an error
+
+        /* 
+        New feature place name
+        Add it to the database and add it to the Repairs model
+        */
+        
+        //$place_name = $request->place_name;
+
+
+        // If the user don't want to fill out note they wont get an error
         if($request->note == "") {
             $note = "";
         } else {
