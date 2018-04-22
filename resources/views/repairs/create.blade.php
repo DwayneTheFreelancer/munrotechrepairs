@@ -74,7 +74,7 @@
             </div>
         </div>
         <div class="form-group">
-            <label for="number" class="col-sm-2 control-label">Phone Number</label>
+            <label for="number" class="col-sm-2 control-label">Phone Number (optional)</label>
             <div class="col-sm-10">
                 <input type="text" class="form-control" id="number" name="number" placeholder="Phone Number">
             </div>
