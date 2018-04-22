@@ -43,7 +43,6 @@ class RepairsController extends Controller
         $first_name = $request->first_name;
         $last_name = $request->last_name;
         $email = $request->email;
-        //$number = $request->number;
         $number = "";
         if($request->number == "") {
             $number = "";
@@ -51,8 +50,13 @@ class RepairsController extends Controller
             $number = $request->number;
         }
         $address = $request->address;
+        $place = "";
+        if($place_name == "") {
+            $place_name == "";
+        } else {
+            $place_name = $request->place_name;
+        }
         $zip_code = $request->zip_code;
-        //$note = $request->note || "";
         $note = "";
         if($request->note == "") {
             $note == "";
@@ -60,26 +64,6 @@ class RepairsController extends Controller
             $note = $request->note;
         }
 
-        /* 
-        New feature place name
-        Add it to the database and add it to the Repairs model
-        */
-
-        //$place_name = $request->place_name;
-
-
-        // If the user don't want to fill out note they wont get an error
-        // if($request->note == "" || NULL) {
-        //     $note == "";
-        // } else {
-        //     $note = $request->note;
-        // }
-
-        // if($request->number == "" || NULL) {
-        //     $number == "";
-        // } else {
-        //     $number = $request->number;
-        // }
 
         $category_id = 1;
 
@@ -91,7 +75,7 @@ class RepairsController extends Controller
         if($iphone == "" || $problem == "" || $first_name == "" || $last_name == "" || $email == "" || $address == "" || $zip_code == "") {
             echo $empty_field;
         } else {
-            $repair = Repair::create(["iphone" => $iphone, "problem" => $problem, "first_name" => $first_name, "last_name" => $last_name, "email" => $email, "number" => $number, "address" => $address, "zip_code" => $zip_code, "note" => $note,"category_id"  => $category_id]);
+            $repair = Repair::create(["iphone" => $iphone, "problem" => $problem, "first_name" => $first_name, "last_name" => $last_name, "email" => $email, "number" => $number, "address" => $address, "place_name" => $place_name, "zip_code" => $zip_code, "note" => $note,"category_id"  => $category_id]);
             echo $order_success;
         }
 

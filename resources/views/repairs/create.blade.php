@@ -87,6 +87,13 @@
             </div>
         </div>
         <div class="form-group">
+            <label for="address" class="col-sm-2 control-label">Place Name</label>
+            <span>*optional</span>
+            <div class="col-sm-10">
+                <input type="text" class="form-control" id="place_name" name="place_name" placeholder="Place">
+            </div>
+        </div>
+        <div class="form-group">
             <label for="zip_code" class="col-sm-2 control-label">Zip Code</label>
             <div class="col-sm-10">
                 <input type="text" class="form-control" id="zip_code" name="zip_code" placeholder="Zip Code">

@@ -22,6 +22,7 @@ class CreateRepairsTable extends Migration
             $table->text('email');
             $table->text('number');
             $table->text('address');
+            $table->text('place_name');
             $table->text('zip_code');
             $table->text('note');
             $table->integer('category_id');
