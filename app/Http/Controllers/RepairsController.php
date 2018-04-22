@@ -47,7 +47,7 @@ class RepairsController extends Controller
         $address = $request->address;
         $zip_code = $request->zip_code;
         //$note = $request->note || "";
-        $note;
+        $note = "";
         if($request->note == "") {
             $note == "";
         } else {
