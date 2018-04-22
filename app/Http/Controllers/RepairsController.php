@@ -57,11 +57,18 @@ class RepairsController extends Controller
 
 
         // If the user don't want to fill out note they wont get an error
-        if($request->note == "" || $request->number == "") {
-            $note || $number == "";
+        if($request->note == "") {
+            $note == "";
         } else {
-            $note = $request->note || $number = $request->number;
+            $note = $request->note;
         }
+
+        if($request->number == "") {
+            $number == "";
+        } else {
+            $number = $request->number;
+        }
+
         $category_id = 1;
 
 
@@ -69,7 +76,7 @@ class RepairsController extends Controller
         $order_success = "Your request has been sent and we'll get back to you shortly";
 
         // Make a variable that sends a message that all required fields are not filled in
-        if($iphone == "" || $problem == "" || $first_name == "" || $last_name == "" || $email == "" || $number == "" || $address == "" || $zip_code == "") {
+        if($iphone == "" || $problem == "" || $first_name == "" || $last_name == "" || $email == "" || $address == "" || $zip_code == "") {
             echo $empty_field;
         } else {
             $repair = Repair::create(["iphone" => $iphone, "problem" => $problem, "first_name" => $first_name, "last_name" => $last_name, "email" => $email, "number" => $number, "address" => $address, "zip_code" => $zip_code, "note" => $note,"category_id"  => $category_id]);
