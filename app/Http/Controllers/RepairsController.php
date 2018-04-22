@@ -57,17 +57,17 @@ class RepairsController extends Controller
 
 
         // If the user don't want to fill out note they wont get an error
-        if($request->note == "") {
-            $note == "";
+        if($request->note == "" || $request->number == "") {
+            $note || $number == "";
         } else {
-            $note = $request->note;
+            $note = $request->note || $number = $request->number;
         }
 
-        if($request->number == "") {
-            $number == "";
-        } else {
-            $number = $request->number;
-        }
+        // if($request->number == "") {
+        //     $number == "";
+        // } else {
+        //     $number = $request->number;
+        // }
 
         $category_id = 1;
 
