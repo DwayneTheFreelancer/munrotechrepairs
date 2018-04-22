@@ -64,7 +64,7 @@ class RepairsController extends Controller
         }
 
         if($request->number == "") {
-            $number == NULL;
+            $number == "";
         } else {
             $number = $request->number;
         }
