@@ -46,7 +46,7 @@ class RepairsController extends Controller
         $number = $request->number;
         $address = $request->address;
         $zip_code = $request->zip_code;
-        $note = $request->note || NULL;
+        $note = $request->note || "";
 
         /* 
         New feature place name
