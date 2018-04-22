@@ -35,7 +35,7 @@ class RepairsController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
+    public function store(Request $request, $number = "", $note = "")
     {
 
         $iphone = $request->iphone;
@@ -57,17 +57,17 @@ class RepairsController extends Controller
 
 
         // If the user don't want to fill out note they wont get an error
-        if($request->note == "" || NULL) {
-            $note == "";
-        } else {
-            $note = $request->note;
-        }
+        // if($request->note == "" || NULL) {
+        //     $note == "";
+        // } else {
+        //     $note = $request->note;
+        // }
 
-        if($request->number == "" || NULL) {
-            $number == "";
-        } else {
-            $number = $request->number;
-        }
+        // if($request->number == "" || NULL) {
+        //     $number == "";
+        // } else {
+        //     $number = $request->number;
+        // }
 
         $category_id = 1;
 
