@@ -35,7 +35,7 @@ class RepairsController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request, $number = "", $note = "")
+    public function store(Request $request, $number = NULL, $note = NULL)
     {
 
         $iphone = $request->iphone;
