@@ -43,7 +43,13 @@ class RepairsController extends Controller
         $first_name = $request->first_name;
         $last_name = $request->last_name;
         $email = $request->email;
-        $number = $request->number;
+        //$number = $request->number;
+        $number = "";
+        if($request->number == "") {
+            $number = "";
+        } else {
+            $number = $request->number;
+        }
         $address = $request->address;
         $zip_code = $request->zip_code;
         //$note = $request->note || "";
