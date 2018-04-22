@@ -52,15 +52,15 @@ class RepairsController extends Controller
         New feature place name
         Add it to the database and add it to the Repairs model
         */
-        
+
         //$place_name = $request->place_name;
 
 
         // If the user don't want to fill out note they wont get an error
-        if($request->note == "") {
-            $note = "";
+        if($request->note == "" || $request->number == "") {
+            $note || $number == "";
         } else {
-            $note = $request->note;
+            $note = $request->note || $number = $request->number;
         }
         $category_id = 1;
 
