@@ -21,7 +21,7 @@
         <h1 class="text-center"><a href="https://www.facebook.com/munrotechrepiars/">Like and Follow Us On <i class="fab fa-facebook-square fa-2x"></i></a></h1>
     </div>
 
-    <h1 class="text-center">How It Works</h1>
+    <h1 style="margin: 50px 0" class="text-center">How It Works</h1>
 
     <div class="main">
         <div class="parallaxImg-1">
