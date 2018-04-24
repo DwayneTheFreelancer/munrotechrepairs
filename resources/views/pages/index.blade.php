@@ -19,7 +19,7 @@
 
     <div class="coming-soon">
         <h1 class="text-center">Like and Follow Us On FaceBook</h1>
-        <span><a href="#"><i class="fab fa-facebook-square fa-3x"></i></a></span>
+        <span><a href="https://www.facebook.com/munrotechrepiars/"><i class="fab fa-facebook-square fa-3x"></i></a></span>
     </div>
 
     <h1 class="text-center">How It Works</h1>
