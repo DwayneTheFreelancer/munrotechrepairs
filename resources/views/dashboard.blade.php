@@ -26,6 +26,7 @@
                             <th scope="col">Last Name</th>
                             <th scope="col">Email</th>
                             <th scope="col">Address</th>
+                            <th scope="col">Place Name</th>
                             <th scope="col">Zip Code</th>
                             <th scope="col">Note</th>
                             </tr>
@@ -40,6 +41,7 @@
                                 <td>{{ $repair->last_name }}</td>
                                 <td>{{ $repair->email }}</td>
                                 <td>{{ $repair->address }}</td>
+                                <td>{{ $repair->place_name }}</td>
                                 <td>{{ $repair->zip_code }}</td>
                                 <td>{{ $repair->note }}</td>
                             </tr>
