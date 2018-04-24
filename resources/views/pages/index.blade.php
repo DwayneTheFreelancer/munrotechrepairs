@@ -18,7 +18,8 @@
     </div>
 
     <div class="coming-soon">
-        <h1 class="text-center">Apple watch repairs will be coming soon!</h1>
+        <h1 class="text-center">Like and Follow Us On FaceBook</h1>
+        <span><a href="#"><i class="fab fa-facebook-square fa-3x"></i></a></span>
     </div>
 
     <h1 class="text-center">How It Works</h1>
