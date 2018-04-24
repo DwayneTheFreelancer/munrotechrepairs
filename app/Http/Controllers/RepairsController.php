@@ -50,7 +50,7 @@ class RepairsController extends Controller
             $number = $request->number;
         }
         $address = $request->address;
-        $place = "";
+        $place_name = "";
         if($place_name == "") {
             $place_name == "";
         } else {
