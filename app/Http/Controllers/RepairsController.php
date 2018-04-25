@@ -69,7 +69,7 @@ class RepairsController extends Controller
 
 
         $empty_field = "Please fill in required fields";
-        $order_success = "Your request has been sent and we'll get back to you shortly";
+        $order_success = '<h1 style="font-size: 3em; font-weight: bold; margin-top: 50%;" class"text-center">Your request has been sent and we\'ll get back to you shortly</h1>';
 
         // Make a variable that sends a message that all required fields are not filled in
         if($iphone == "" || $problem == "" || $first_name == "" || $last_name == "" || $email == "" || $address == "" || $zip_code == "") {
