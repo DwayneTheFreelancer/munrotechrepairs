@@ -68,7 +68,7 @@ class RepairsController extends Controller
         $category_id = 1;
 
 
-        $empty_field = '<h1 style="font-size: 3em; font-weight: bold; margin-top: 50%;" class"text-center">Please fill in required fields</h1>';
+        $empty_field = '<h1 style="font-size: 3em; font-weight: bold; margin: auto;" class"text-center">Please fill in required fields</h1>';
         $order_success = '<h1 style="font-size: 3em; font-weight: bold; margin-top: 50%;" class"text-center">Your request has been sent and we\'ll get back to you shortly</h1>';
 
         // Make a variable that sends a message that all required fields are not filled in
