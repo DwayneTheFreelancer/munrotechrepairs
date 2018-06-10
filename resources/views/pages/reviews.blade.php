@@ -13,9 +13,11 @@
 <body>
     @include('inc.navbar')
 
-    <h1 class="text-center reviews-title">Customer Reviews</h1>
+    <div class="reviews-title">
+        <h1 class="text-center">Customer Reviews</h1>
+    </div>
 
-
+    @include('inc.footer')
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.js"></script>  
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 </body>
