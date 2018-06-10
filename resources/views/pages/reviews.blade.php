@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
 </head>
 <body>
-    @include('navbar')
+    @include('inc.navbar')
 
     <h1 class="text-center reviews-title">Customer Reviews</h1>
 
