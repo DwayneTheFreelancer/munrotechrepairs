@@ -15,7 +15,6 @@
     <div id="banner">
         <h1>Got A Cracked iPhone No Problem!</h1>
         <h3 class="text-center"><a href="{{ url('repairs/') }}">Repair Device</a></h3>
-        <h2>iPad repairs coming soon</h2>
     </div>
 
     <div class="coming-soon">

@@ -13,6 +13,7 @@
         <ul class="nav navbar-nav">
           <li><a href="/">Home</a></li>
           <li><a href="{{ url('/repairs') }}">Services</a></li>
+          <li><a href="{{ url('/reviews') }}"></a></li>
           <li><a href="{{ url('/about-us') }}">About Us</a></li>
           <li><a href="{{ url('/contact') }}">Contact</a></li>
           <li>

@@ -1,5 +1,6 @@
 <?php
 
+//Mail fascade
 namespace App\Mail;
 namespace App\Http\Controllers;
 
@@ -16,6 +17,10 @@ class PagesController extends Controller
 
     public function aboutUs() {
         return view('pages/about-us');
+    }
+
+    public function reviews() {
+        return view('pages/reviews');
     }
 
     public function send(Request $request) {

@@ -12,6 +12,7 @@
 */
 
 Route::get('/', 'PagesController@index');
+Route::get('/reviews', 'PagesController@reviews');
 Route::get('/about-us', 'PagesController@aboutUs');
 //EMAIL
 Route::post('/send', 'PagesController@send');
