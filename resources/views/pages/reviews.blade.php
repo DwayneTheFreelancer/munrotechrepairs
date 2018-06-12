@@ -19,9 +19,15 @@
 
     <div class="container" id="reviews">
         <div class="row">
-            <div id="photo"></div>
-            <div id="photo"></div>
-            <div id="photo"></div>
+            <div class="col-md-4 col-sm-4 col-xs-12" id="photo">
+                <img src="img/clarinebrokeniphonese.jpg" alt="Broken iPhone" width="100%">
+            </div>
+            <div class="col-md-4 col-sm-4 col-xs-12" id="photo">
+                <img src="img/clarineiphonegettingfixed.jpg" alt="iPhone getting fixed" width="100%">
+            </div>
+            <div class="col-md-4 col-sm-4 col-xs-12" id="photo">
+                <img src="img/clarineiphonefixed.jpg" alt="Fix iPhone" width="100%">
+            </div>
             <p id="comment"></p>
         </div>
     </div>
