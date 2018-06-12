@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
+    <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Reviews</title>
@@ -15,6 +15,15 @@
 
     <div class="reviews-title">
         <h1 class="text-center">Customer Reviews</h1>
+    </div>
+
+    <div class="container" id="reviews">
+        <div class="row">
+            <div id="photo"></div>
+            <div id="photo"></div>
+            <div id="photo"></div>
+            <p id="comment"></p>
+        </div>
     </div>
 
     @include('inc.footer')
