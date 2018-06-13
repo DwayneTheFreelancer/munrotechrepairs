@@ -18,18 +18,20 @@
     </div>
 
     <div class="container" id="reviews">
-        <div class="row">
-            <div class="col-md-4 col-sm-4 col-xs-12" id="photo">
-                <img src="img/clarinebrokeniphonese.jpg" alt="Broken iPhone" width="100%">
+        <div class="row first-review">
+            <div class="col-md-6 col-xs-6" id="photo">
+                <img src="img/clarinebrokeniphonese.jpg" alt="Broken iPhone">
             </div>
-            <div class="col-md-4 col-sm-4 col-xs-12" id="photo">
-                <img src="img/clarineiphonegettingfixed.jpg" alt="iPhone getting fixed" width="100%">
+            <div class="col-md-6 col-xs-6" id="photo">
+                <img src="img/clarineiphonefixed.jpg" alt="iPhone getting fixed">
             </div>
-            <div class="col-md-4 col-sm-4 col-xs-12" id="photo">
-                <img src="img/clarineiphonefixed.jpg" alt="Fix iPhone" width="100%">
+            <div class="col-md-12 col-sm-12 col-xs-12" id="photo">
+                <img src="img/clarinereview.jpg" alt="Fix iPhone">
             </div>
-            <p id="comment"></p>
+            <h2 id="comment">iPhone SE repair June 11, 2018</h2>
+            <hr>
         </div>
+        <div class="row"></div>
     </div>
 
     @include('inc.footer')

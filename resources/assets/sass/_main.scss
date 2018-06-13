@@ -319,3 +319,24 @@ body {
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     }
 }
+
+// #reviews {
+//     height: 900px;
+// }
+
+.first-review {
+    margin-bottom: 100px;
+}
+
+#reviews {
+    img {
+        width: 100%;
+    }
+    &:last-child {
+        height: 600px;
+    }
+    #comment {
+        float:right;
+        font-weight: 300;
+    }
+}
