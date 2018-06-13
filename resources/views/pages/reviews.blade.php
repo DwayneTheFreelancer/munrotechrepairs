@@ -30,10 +30,10 @@
         </div>
         <div class="row first-review">
             <div class="col-md-6 col-xs-6" id="photo">
-                <img src="img/clarinebrokeniphonese.jpg" alt="Broken iPhone">
+                <img src="/img/clarinebrokeniphonese.jpg" alt="Broken iPhone">
             </div>
             <div class="col-md-6 col-xs-6" id="photo">
-                <img src="img/clarineiphonefixed.jpg" alt="iPhone getting fixed">
+                <img src="/img/clarineiphonefixed.jpg" alt="iPhone getting fixed">
             </div>
             <div class="col-md-12 col-sm-12 col-xs-12" id="photo">
                 <img src="img/clarinereview.jpg" alt="Fix iPhone">
