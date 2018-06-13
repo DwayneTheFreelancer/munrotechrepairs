@@ -18,6 +18,16 @@
     </div>
 
     <div class="container" id="reviews">
+        <div class="row second-review">
+            <div class="col-md-12 col-xs-12">
+                <video width="100%" height="400px" controls>
+                    <source src="videos/vashawnreview.mp4" type="video/mp4">
+                    <source src="videos/vashawnreview.ogg" type="video/ogg">
+                    Your browser does not support the video tag.
+                </video>
+                <h2 id="comment">iPhone 7+ repair June 8, 2018</h2>
+            </div>
+        </div>
         <div class="row first-review">
             <div class="col-md-6 col-xs-6" id="photo">
                 <img src="img/clarinebrokeniphonese.jpg" alt="Broken iPhone">
@@ -27,11 +37,10 @@
             </div>
             <div class="col-md-12 col-sm-12 col-xs-12" id="photo">
                 <img src="img/clarinereview.jpg" alt="Fix iPhone">
+                <h2 id="comment">iPhone SE repair June 11, 2018</h2>
+                <hr>
             </div>
-            <h2 id="comment">iPhone SE repair June 11, 2018</h2>
-            <hr>
         </div>
-        <div class="row"></div>
     </div>
 
     @include('inc.footer')

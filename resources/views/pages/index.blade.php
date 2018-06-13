@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Home</title>
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet")> 
-    <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
+    <!-- <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet"> -->
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
 </head>
 <body>
@@ -17,8 +18,12 @@
         <h3 class="text-center"><a href="{{ url('repairs/') }}">Repair Device</a></h3>
     </div>
 
+    <div id="payments" class="container">
+        <h2 class="text-center">Now Accepting mobile payments through Apple Pay Cash and Cash App <i class="fa fa-mobile fa-2x" aria-hidden="true"></i> <i class="fa fa-credit-card-alt" aria-hidden="true"></i></h2>
+    </div>
+
     <div class="coming-soon">
-        <h1 class="text-center"><a href="https://www.facebook.com/munrotechrepiars/">Like and Follow Us On <i class="fab fa-facebook-square fa-2x"></i></a></h1>
+        <h1 class="text-center"><a href="https://www.facebook.com/munrotechrepiars/">Like and Follow Us On <i class="fa fa-facebook-official"></i></a></h1>
     </div>
 
     <h1 style="margin: 50px 0" class="text-center">How It Works</h1>

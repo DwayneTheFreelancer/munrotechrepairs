@@ -98,6 +98,13 @@ body {
     }
 }
 
+#payments {
+    margin: 50px auto;
+    h2 {
+        font-weight: 300;
+    }
+}
+
 .coming-soon {
     margin: 120px 0;
     padding: 50px 0;
@@ -325,6 +332,10 @@ body {
 // }
 
 .first-review {
+    margin-bottom: 100px;
+}
+
+.second-review {
     margin-bottom: 100px;
 }
 
